@@ -1,0 +1,6 @@
+{
+  "name": "Magnus Learning Center",
+  "description": "Magnus Learning Center xalqaro o'quv markazi uchun rasmiy landing sahifasi va arizalar qabul qilish tizimi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
