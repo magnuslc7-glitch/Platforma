@@ -14,6 +14,7 @@ import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 import ArizaModal from "./components/ArizaModal";
 import LeadsAdmin from "./components/LeadsAdmin";
+import ScrollToTop from "./components/ScrollToTop";
 import { Sparkles, Calendar, BookOpen, MessageSquare, ShieldCheck, Database } from "lucide-react";
 import { Lead } from "./types";
 import { LanguageProvider, useLanguage } from "./context/LanguageContext";
@@ -143,6 +144,9 @@ function AppContent() {
           <span>{t("header", "btnAdmin")}</span>
         </button>
       </div>
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </div>
   );
 }
